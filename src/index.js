@@ -7,5 +7,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <h1>WELCOME TO MY WEBPAGE </h1>
+    <App />
   </div>
 );
