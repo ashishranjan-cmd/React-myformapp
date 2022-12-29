@@ -1,6 +1,6 @@
 function Myinput(props) {
-    function change(){
-        console.log("changed")
+    function change(e){
+        console.log(e.target.value)
     }
 
     return (
