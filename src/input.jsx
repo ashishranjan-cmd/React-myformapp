@@ -1,10 +1,20 @@
+import { useState } from "react";
 
-var myn = "world";
+var myn;
+
+function MyName(){
+   // const [mynamex, setName] = useState("name")
+    return (<p>Hi, {myn}</p>)
+}
 
 function Myinput(props) {
+    const [mynamex, setName] = useState("name")
+
     function change(e){
         console.log(e.target.value);
-        //let myn = e.target.value
+        myn = e.target.value
+
+        setName(myn)
     }
 
     return (
@@ -17,4 +27,4 @@ function Myinput(props) {
          )
 }
 export default myn;
-export { Myinput };
+export { Myinput, MyName };

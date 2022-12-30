@@ -1,3 +1,4 @@
+/*
 import { useState } from "react"
 
 // let myn = "Name"
@@ -11,3 +12,4 @@ function Myname(){
 }
 
 export default Myname;
+*/

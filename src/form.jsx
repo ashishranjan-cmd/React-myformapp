@@ -1,10 +1,9 @@
-import { Myinput } from "./input";
-import Myname from "./myname";
+import { Myinput, MyName } from "./input";
 
 function Myform(){
     return (
         <div>
-    <Myname />
+    <MyName />
     <form>
       <Myinput 
         mytype="text"
