@@ -1,6 +1,10 @@
+
+var myn = "world";
+
 function Myinput(props) {
     function change(e){
-        console.log(e.target.value)
+        console.log(e.target.value);
+        //let myn = e.target.value
     }
 
     return (
@@ -12,4 +16,5 @@ function Myinput(props) {
          />
          )
 }
-export default Myinput
+export default myn;
+export { Myinput };

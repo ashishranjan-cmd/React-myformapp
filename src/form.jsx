@@ -1,7 +1,10 @@
-import Myinput from "./input";
+import { Myinput } from "./input";
+import Myname from "./myname";
 
 function Myform(){
     return (
+        <div>
+    <Myname />
     <form>
       <Myinput 
         mytype="text"
@@ -27,6 +30,7 @@ function Myform(){
         />
       <br />
     </form>
+    </div>
     )
 }
 
